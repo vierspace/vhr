@@ -61,3 +61,7 @@ body{
     flex-direction: row-reverse;
     align-items: center;
 }
+/*help-map*/
+.goodeco{
+    text-decoration: underline;
+}
