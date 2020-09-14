@@ -2761,3 +2761,8 @@ div.ico-mps img {
 p.list-notif {
     color: #bfbfbf;
 }
+input:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    border-color: #1877f2 !important;
+}
