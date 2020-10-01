@@ -2767,3 +2767,8 @@ input:focus {
     outline-width: 0 !important;
     border-color: #1877f2 !important;
 }
+
+.user-card ul li strong {
+    display: inline-block;
+    min-width: 78px;
+}
