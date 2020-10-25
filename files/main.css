@@ -2621,7 +2621,7 @@ div#description p {
     min-width: 275px;
 }
 a.bb-link {
-    display: inline-block;
+/*     display: inline-block; */
 }
 .bb-cont > img{
     border: 1px solid #e8e8e8;
@@ -2655,6 +2655,10 @@ color: #970615
 }
     .bb-tx1, .bb-tx2{ 
     font-size: 25px; 
+}
+    .bb-main{
+   display: block;
+
 }
 }
 @media screen and (max-width: 700px){
