@@ -2541,6 +2541,9 @@ p.counttxt {
     border: 1px solid #ddd;
     border-radius: 5px
 }
+.filter-title {
+    border-bottom: 1px solid #ececec;
+}
 #sidebar .input-text,
 #sidebar input[type=text],
 .form-container .controls input,
