@@ -2609,6 +2609,70 @@ div#description p {
     border: 1px solid #efefef;
     border-radius: 5px
 }
+
+.bb-main{
+   display: flex; justify-content: center;
+}
+.bb-cont{
+    overflow: hidden;
+    position: relative;
+    max-width: 1000px;
+    min-width: 275px;
+}
+a.bb-link {
+    display: inline-block;
+}
+.bb-cont > img{
+    border: 1px solid #e8e8e8;
+}
+.bb-arrow{
+    position: absolute; top: 0; right: 0;
+}
+.bb-ti{
+    position: absolute; bottom: 0;
+    width: 100%;
+}
+.bb-ti1{
+    display: flex; justify-content: space-around;
+    align-items:flex-end;
+}
+
+.bb-tx1, .bb-tx2{ padding: 0; margin: 0;
+    margin-bottom: 10px;
+    font-size: 30px; font-family: Berlin Sans FB;
+    text-align: right;
+}
+.bb-tx1{
+color: #157f19
+}
+.bb-tx2{
+color: #970615
+}
+@media screen and (max-width: 900px){
+    .bb-tiimg img{
+    width: 200px;
+}
+    .bb-tx1, .bb-tx2{ 
+    font-size: 25px; 
+}
+}
+@media screen and (max-width: 700px){
+        .bb-tx1, .bb-tx2{ 
+    font-size: 20px; 
+    
+            margin: 5px;
+}
+    .bb-tx2 {
+    background: #fff;
+    border-radius: 10px;
+}
+}
+@media screen and (max-width: 450px){
+        .bb-tiimg img{
+    width: 100px;
+}
+}
+
 div#sidebar {
     background: #fff;
     padding: 15px;
