@@ -2654,14 +2654,19 @@ color: #970615
 @media screen and (max-width: 900px){
     .bb-tiimg img{
     width: 200px;
-}
+    }
     .bb-tx1, .bb-tx2{ 
     font-size: 25px; 
-}
+    }
     .bb-main{
    display: block;
-
-}
+    }
+    .bb-tx1 {
+    margin-bottom: 9px;
+    }
+    .bb-tx2 {
+    margin-top: 0;
+    }
 }
 @media screen and (max-width: 700px){
         .bb-tx1, .bb-tx2{ 
@@ -2671,11 +2676,8 @@ color: #970615
     .bb-tx2 {
     background: #fff;
     border-radius: 10px;
-    margin-top: 0;
 }
-    .bb-tx1 {
-    margin-bottom: 9px;
-}
+
 }
 @media screen and (max-width: 500px){
         .bb-tx1, .bb-tx2{ 
