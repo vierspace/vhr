@@ -2638,8 +2638,10 @@ a.bb-link {
     align-items:flex-end;
 }
 
-.bb-tx1, .bb-tx2{ padding: 0; margin: 0;
-    margin-bottom: 10px;
+.bb-tx1, .bb-tx2{ 
+/*     padding: 0; 
+    margin: 0;
+    margin-bottom: 10px; */
     font-size: 30px; font-family: Berlin Sans FB;
     text-align: right;
 }
@@ -2664,8 +2666,7 @@ color: #970615
 @media screen and (max-width: 700px){
         .bb-tx1, .bb-tx2{ 
     font-size: 20px; 
-    
-            margin: 5px;
+    margin: 5px;
 }
     .bb-tx2 {
     background: #fff;
